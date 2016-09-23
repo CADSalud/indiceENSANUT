@@ -7,3 +7,4 @@ adultos <- read.spss('Adultos.sav')
 etiquetas <- attributes(adultos)$variable.labels
 
 adultos.df <- as.data.frame(adultos)
+names(adultos.df)
